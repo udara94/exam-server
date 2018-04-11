@@ -1,0 +1,10 @@
+1	How many layers have OSI model?	1)4	2)5	3)6	4)7	4
+2	Which of the following is false with respect to UDP?	1)Connection-oriented	2)Unreliable	3)Transport layer protocol	4)All of above	1
+3	The server program tells its TCP that it is ready?	1)active-open	2)active-close	3)passive-close	4)passive-open	4
+4	Communication offered by TCP is?	1)Full-duplex	2)Half-duplex	3)semi-duplex	4)byte-by-byte	1
+5	This is not a application layer protocol?	1)HTTP	2)SMTP	3)FTP	4)TCP	4
+6	Network spanning states, countries or the whole world is?	1)LAN	2)WAN	3)MAN	4)CAN	2
+7	Physical or logical arrangment of network is?	1)Topology	2)Routing	3)Networking	4)None	1
+8	The network layer consern with?	1)bits	2)frames	3)pakets	4)none	3
+9	Which transmission media has the highest transmission speed in a network?	1)coaxial-cable	2)twisted-pair-cable	3)optical-fiber	4)electrical-cable	3
+10	Which address identifies a process on host?	1)physical-address	2)logical-address	3)port-address	4)specific-address	3		

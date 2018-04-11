@@ -1,0 +1,35 @@
+tcpserv01.out: error.o wrapunix.o wrapsock.o wraplib.o wrapstdio.o tcpserv01.o readline.o writen.o str_echo08.o sigchldwaitpid.o signal.o
+	cc -o tcpserv01.out str_echo08.o error.o wrapunix.o wrapsock.o wraplib.o wrapstdio.o tcpserv01.o readline.o writen.o sigchldwaitpid.o signal.o
+
+error.o: error.c cc352.h
+	cc -c error.c
+
+wrapunix.o: wrapunix.c cc352.h
+	cc -c wrapunix.c
+
+wrapsock.o: wrapsock.c cc352.h
+	cc -c wrapsock.c
+
+wraplib.o: wraplib.c cc352.h
+	cc -c wraplib.c
+
+wrapstdio.o: wrapstdio.c cc352.h
+	cc -c wrapstdio.c
+
+tcpserv01.o: tcpserv01.c cc352.h
+	cc -c tcpserv01.c
+
+str_echo08.o: str_echo08.c cc352.h
+	cc -c str_echo08.c
+
+readline.o: readline.c cc352.h
+	cc -c readline.c
+
+writen.o: writen.c cc352.h
+	cc -c writen.c
+
+sigchldwaitpid.o:sigchldwaitpid.c cc352.h
+	cc -c sigchldwaitpid.c
+
+signal.o: signal.c cc352.h
+	cc -c signal.c
